@@ -1,0 +1,21 @@
+# Competition data (download with scripts/fetch_data.sh); never commit.
+data/
+# Circuit artifacts and submission bundles are large; keep hashes in notes instead.
+*.kmb
+*.kmx
+*.npz
+*.fcidump
+submissions/*.zip
+!tests/fixtures/*.kmx
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+# Scratch
+*.log
+.DS_Store
