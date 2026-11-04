@@ -19,3 +19,9 @@ build/
 # Scratch
 *.log
 .DS_Store
+# Raw third-party Kaggle notebook/dataset pulls: licences vary, keep local only (indexes are committed).
+docs/research/kaggle-raw/notebooks/*/
+docs/research/kaggle-raw/notebooks/*.ipynb
+docs/research/kaggle-raw/notebooks/*.txt
+!docs/research/kaggle-raw/notebooks/_slug-redirects.txt
+docs/research/kaggle-raw/datasets/

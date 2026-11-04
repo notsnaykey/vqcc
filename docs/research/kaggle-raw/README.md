@@ -25,3 +25,15 @@ chosen because it quotes or transcribes the Kaggle pages:
 | `qualtran-docs/` | Official kickmix docs linked from the Kaggle Data page (`kickmix_format.md`, `kickmix_instructions.md`, `api_reference.md`, `dev.md`) and the kickmix 1.0.0 PyPI metadata | Official |
 
 Scraper scripts: `/tmp/claude-0/-home-user/af1e8b3b-1af8-51dd-9e8d-ec3f80eabc0b/scratchpad/kaggle-scrape/` (`lib.js`, `overview.js`, `retry.js`).
+
+## Added 2026-11-04 (second pass): the Kaggle API works anonymously for kernel pulls
+
+`notebooks/` now also holds **81 public notebooks** of this competition pulled through
+`https://www.kaggle.com/api/v1/kernels/pull/<owner>/<slug>` (anonymous, 200), one folder per notebook
+(`<owner>__<slug>/kernel.json`, `metadata.json`, `notebook.ipynb`/`script.py`, `source.txt`), indexed in
+`notebooks/INDEX.md`, and `datasets/` holds 73 dataset metadata records from `datasets/view` (anonymous, 200).
+Kernel *listing*, *outputs* and *old versions* are auth-walled, cell outputs are stripped, and renamed slugs were
+resolved through the `kaggle.com/code/<old-slug>` 302 redirect (`notebooks/_slug-redirects.txt`). Full details:
+`notebooks/README.md`; analysis: `docs/research/kaggle-notebooks.md`. The two earlier mirrors
+(`notebooks/dmitriigluzdov_*`, `notebooks/manwithacat_kickmix-quickstart.*`) are kept: they are older versions
+(v7-era, score 23.87) of notebooks whose current versions are in the per-notebook folders.

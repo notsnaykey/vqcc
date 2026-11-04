@@ -1,0 +1,1361 @@
+[
+ {
+  "ref": "heliosli/quantum-ai-v1",
+  "title": "Quantum AI - v1",
+  "votes": 125,
+  "version": 47,
+  "type": "notebook",
+  "bytes": 7523,
+  "code_cells": 4,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "ahmedberatozer/quantum-ai-df-thc-group-compression",
+  "title": "Quantum AI - DF-THC Group Compression",
+  "votes": 119,
+  "version": 22,
+  "type": "notebook",
+  "bytes": 17337,
+  "code_cells": 3,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [
+   "ahmedberatozer/vqcc-v22-portfolio"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "somejoint/quantum-circuits-24-56-local-gm-rank-cut",
+  "title": "Quantum Circuits | 24.56 Local GM: Rank Cut",
+  "votes": 109,
+  "version": 33,
+  "type": "notebook",
+  "bytes": 54003,
+  "code_cells": 4,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [
+   "somejoint/qcc-ladder-parts"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "alexchilton/24-55-lb-verified-three-task-portfolio",
+  "title": "24.55 LB: Verified Three-Task Portfolio",
+  "votes": 108,
+  "version": 101,
+  "type": "notebook",
+  "bytes": 398711,
+  "code_cells": 10,
+  "md_cells": 19,
+  "outputs": 0,
+  "datasets": [
+   "mrmeows/qcc-1375-open-circuits",
+   "alexchilton/qcc-schur-dqi-rebuild",
+   "alexchilton/qcc-llm-gauge",
+   "alexchilton/uncompute-dqi-port",
+   "ahmedberatozer/vqcc-v8-components"
+  ],
+  "kernels": [
+   "mrmeows/21-0-circuits-let-s-all-reach-the-plateau",
+   "kirilltym/quantum-circuits-exact-gauge-5-word-qrom",
+   "manwithacat/vqcc-quantum-voodoo",
+   "atakanaldemir/qcc-gap-3-residue-repair-and-c43-native-compiler",
+   "isabe11am00re/qcc-v49-submission",
+   "ahmedberatozer/quantum-ai-df-thc-group-compression",
+   "dmitriigluzdov/quantum-circuit-compilation-from-source",
+   "syed3000/vqcc-24-43-portfolio",
+   "manwithacat/vqcc-hedge-wizardry-notebook",
+   "syed3000/vqcc-own-circuit-portfolio-notebook",
+   "kirilltym/quantum-circuits-four-loaders-eight-toffolis",
+   "heliosli/the-dataset-is-public-now-enjoy",
+   "manwithacat/the-real-150k-was-the-friends-we-made",
+   "matousakura/best-of-public-portfolio-vqcc-24-0x-class",
+   "yoyobar/lb-22-99-invsqrt-101-62-qubits",
+   "leotang09/vqcc-t7421-submission"
+  ]
+ },
+ {
+  "ref": "dmitriigluzdov/quantum-circuit-compilation-from-source",
+  "title": "Quantum Circuit Compilation from Source",
+  "votes": 87,
+  "version": 51,
+  "type": "notebook",
+  "bytes": 29001,
+  "code_cells": 4,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "dmitriigluzdov/vqcc-femoco-public-factorization"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "manwithacat/the-real-150k-was-the-friends-we-made",
+  "title": "The Real $150K Was the Friends We Made",
+  "votes": 84,
+  "version": 106,
+  "type": "notebook",
+  "bytes": 127544,
+  "code_cells": 15,
+  "md_cells": 10,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/kickmix-fork-wheels",
+   "manwithacat/kickmix-engine-wheels",
+   "manwithacat/vqcc-hedge-wizardry",
+   "manwithacat/vqcc-chemistry-negative-results",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "manwithacat/dqi-salt-check-public-frontier",
+   "manwithacat/kickmix-tools"
+  ]
+ },
+ {
+  "ref": "yoyobar/lb-22-99-invsqrt-101-62-qubits",
+  "title": "LB 22.99 | invsqrt 101 - 62 qubits",
+  "votes": 80,
+  "version": 27,
+  "type": "notebook",
+  "bytes": 12484,
+  "code_cells": 2,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "yoyobar/qcc-local-sota-20261031"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "sohier/verifiable-circuit-compilation-starter",
+  "title": "Verifiable Circuit Compilation Starter",
+  "votes": 66,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 8351,
+  "code_cells": 7,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "sohier/verifiable-circuit-compilation-starter-kit"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "kirilltym/quantum-circuits-exact-gauge-5-word-qrom",
+  "title": "Quantum Circuits | Exact Gauge + 5-Word QROM",
+  "votes": 63,
+  "version": 25,
+  "type": "notebook",
+  "bytes": 49724,
+  "code_cells": 9,
+  "md_cells": 8,
+  "outputs": 0,
+  "datasets": [
+   "busyaprime/33-qcc-v8-members",
+   "hengck23/hengck23-dqi-59-57",
+   "mrmeows/qcc-1375-open-circuits",
+   "heliosli/qcc-circuits-live",
+   "kirilltym/quantum-circuits-exact-gauge-research-assets",
+   "ahmedberatozer/vqcc-v8-components"
+  ],
+  "kernels": [
+   "rudrabhaskar/highest-public-score-direct-polynomial-phasing",
+   "phucthaiv02/qcc-verified-portfolio-df-thc-retraining-study",
+   "lightningv08/bezout-schur-5-word-qrom",
+   "kozykappa/lb-21-38884-quantum-ai-q-circuits",
+   "muchat007/895q-streamed-decoder-measured-node-choices",
+   "atakanaldemir/quantum-circuits-iso-gap-dqi-h5",
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut",
+   "ahmedberatozer/quantum-ai-df-thc-group-compression",
+   ""
+  ]
+ },
+ {
+  "ref": "lightningv08/bezout-schur-5-word-qrom",
+  "title": "Bezout-Schur + 5-Word QROM",
+  "votes": 55,
+  "version": 15,
+  "type": "notebook",
+  "bytes": 118896,
+  "code_cells": 7,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "phucthaiv02/qcc-best-circuits",
+   "phucthaiv02/qcc-best-dqi",
+   "phucthaiv02/qcc-best-invsqrt-circuit",
+   "ahmedberatozer/vqcc-v8-components"
+  ],
+  "kernels": [
+   "alexchilton/24-55-lb-verified-three-task-portfolio"
+  ]
+ },
+ {
+  "ref": "metric/google-quantum-ai-metric",
+  "title": "Google Quantum AI Metric",
+  "votes": 55,
+  "version": 10,
+  "type": "notebook",
+  "bytes": 19236,
+  "code_cells": 1,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "mrmeows/21-0-circuits-let-s-all-reach-the-plateau",
+  "title": "21.0 circuits, let's all reach the plateau!",
+  "votes": 53,
+  "version": 8,
+  "type": "notebook",
+  "bytes": 15219,
+  "code_cells": 3,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "mrmeows/qcc-1375-open-circuits"
+  ],
+  "kernels": [
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut"
+  ]
+ },
+ {
+  "ref": "busyaprime/lb-23-91003-exact-dqi-rewrites-at-892-qubits",
+  "title": "LB 23.91003 | Exact DQI Rewrites at 892 Qubits",
+  "votes": 50,
+  "version": 16,
+  "type": "notebook",
+  "bytes": 13653,
+  "code_cells": 3,
+  "md_cells": 3,
+  "outputs": 0,
+  "datasets": [
+   "busyaprime/33-qcc-v8-members"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "manwithacat/vqcc-hedge-wizardry-notebook",
+  "title": "VQCC Hedge Wizardry Notebook",
+  "votes": 49,
+  "version": 18,
+  "type": "notebook",
+  "bytes": 95939,
+  "code_cells": 11,
+  "md_cells": 12,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/kickmix-fork-wheels",
+   "manwithacat/kickmix-engine-wheels",
+   "manwithacat/vqcc-hedge-wizardry",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "manwithacat/kickmix-tools"
+  ]
+ },
+ {
+  "ref": "leoprovorov/the-unbearable-lightness-of-quantum-circuits",
+  "title": "\ud83e\udeb6 The Unbearable Lightness of Quantum Circuits",
+  "votes": 32,
+  "version": 29,
+  "type": "notebook",
+  "bytes": 439184,
+  "code_cells": 4,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "kirilltym/quantum-circuits-four-loaders-eight-toffolis",
+  "title": "Quantum Circuits | Four Loaders, Eight Toffolis",
+  "votes": 31,
+  "version": 9,
+  "type": "notebook",
+  "bytes": 316053,
+  "code_cells": 21,
+  "md_cells": 10,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "isabe11am00re/qcc-v58x-submission",
+   "syed3000/vqcc-own-circuit-portfolio-notebook",
+   "yoyobar/lb-22-99-invsqrt-101-62-qubits"
+  ]
+ },
+ {
+  "ref": "phucthaiv02/qcc-verified-portfolio-df-thc-retraining-study",
+  "title": "QCC | Verified Portfolio + DF-THC Retraining Study",
+  "votes": 31,
+  "version": 12,
+  "type": "notebook",
+  "bytes": 15219,
+  "code_cells": 1,
+  "md_cells": 5,
+  "outputs": 0,
+  "datasets": [
+   "phucthaiv02/qcc-best-circuits",
+   "phucthaiv02/qcc-best-dqi",
+   "phucthaiv02/qcc-best-invsqrt-circuit"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "anazemcev/quantum-circuits-source-exact-compilation",
+  "title": "Quantum Circuits | Source & Exact Compilation",
+  "votes": 29,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 450985,
+  "code_cells": 40,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [
+   "dmitriigluzdov/vqcc-femoco-public-factorization"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "evgendvorkin/google-quantum-ai-deep-eda-with-analogies",
+  "title": "\ud83e\udde0 Google Quantum AI | Deep EDA with Analogies",
+  "votes": 27,
+  "version": 14,
+  "type": "notebook",
+  "bytes": 116257,
+  "code_cells": 26,
+  "md_cells": 39,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "sigmaborov/22-85569-lb-exact-gauge-search",
+  "title": "22.85569 LB | Exact Gauge Search",
+  "votes": 27,
+  "version": 15,
+  "type": "notebook",
+  "bytes": 987988,
+  "code_cells": 8,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "sigmaborov/qcc-frozen-alex-v83-public-baseline"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "heliosli/the-dataset-is-public-now-enjoy",
+  "title": "The dataset is public now. Enjoy!\u2b50\u2b50\u2b50",
+  "votes": 23,
+  "version": 5,
+  "type": "notebook",
+  "bytes": 8101,
+  "code_cells": 4,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "isabe11am00re/qcc-v47-submission",
+  "title": "QCC v47 submission",
+  "votes": 22,
+  "version": 6,
+  "type": "notebook",
+  "bytes": 4503,
+  "code_cells": 4,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [
+   "isabe11am00re/qcc-v58g-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "anazemcev/quantum-circuits-signed-digit-memory",
+  "title": "Quantum Circuits | Signed-Digit Memory",
+  "votes": 21,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 159608,
+  "code_cells": 15,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "anazemcev/quantum-circuits-signed-digit-memory"
+  ]
+ },
+ {
+  "ref": "atakanaldemir/quantum-circuits-iso-gap-dqi-h5",
+  "title": "Quantum Circuits: Iso-Gap + DQI h5",
+  "votes": 20,
+  "version": 11,
+  "type": "notebook",
+  "bytes": 566056,
+  "code_cells": 6,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live",
+   "somejoint/qcc-our-chemistry-b143-c60-xor2"
+  ],
+  "kernels": [
+   "atakanaldemir/quantum-circuits-iso-gap-dqi-h5",
+   "dmitriigluzdov/quantum-circuit-compilation-from-source"
+  ]
+ },
+ {
+  "ref": "kozykappa/lb-21-38884-quantum-ai-q-circuits",
+  "title": "LB [21.38884] Quantum AI | Q. Circuits",
+  "votes": 20,
+  "version": 12,
+  "type": "notebook",
+  "bytes": 485234,
+  "code_cells": 6,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "kozykappa/dataset-quantum"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "prvsiyan/verifier-guided-quantum-circuit-optimization",
+  "title": "Verifier-Guided Quantum Circuit Optimization",
+  "votes": 20,
+  "version": 24,
+  "type": "notebook",
+  "bytes": 33517,
+  "code_cells": 6,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live",
+   "prvsiyan/vqcc-hw12-chemistry-circuits-snapshot",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "marculera/df-thc-10x-compact-groups-from-the-hamiltonian",
+   "heliosli/quantum-ai-v1",
+   "yoyobar/lb-22-99-invsqrt-101-62-qubits",
+   "prvsiyan/verifier-guided-quantum-circuit-optimization",
+   "manwithacat/vqcc-hedge-wizardry-notebook",
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut"
+  ]
+ },
+ {
+  "ref": "rudrabhaskar/highest-public-score-direct-polynomial-phasing",
+  "title": "Highest Public Score | Direct Polynomial Phasing",
+  "votes": 17,
+  "version": 7,
+  "type": "notebook",
+  "bytes": 112256,
+  "code_cells": 15,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "rudrabhaskar/quantum-compilation-r6-verified-checkpoint"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "anazemcev/quantum-circuits-thc-joint-norm-881q-dqi",
+  "title": "Quantum Circuits | THC Joint Norm + 881Q DQI",
+  "votes": 16,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 414583,
+  "code_cells": 62,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "anazemcev/vqcc-viberteam-verified-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "leoprovorov/but-some-q-squared-width-lab",
+  "title": "\ud83d\udf01 But Some Q Squared | Width Lab",
+  "votes": 16,
+  "version": 29,
+  "type": "notebook",
+  "bytes": 787595,
+  "code_cells": 4,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [
+   "somejoint/qcc-ladder-parts"
+  ],
+  "kernels": [
+   "manwithacat/the-real-150k-was-the-friends-we-made"
+  ]
+ },
+ {
+  "ref": "saddamaditya/narrowed-877q-dqi-and-progressive-r10-chemistry",
+  "title": "Narrowed 877Q DQI and Progressive R10 Chemistry",
+  "votes": 16,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 20600,
+  "code_cells": 4,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [
+   "mrmeows/qcc-1375-open-circuits",
+   "ahmedberatozer/vqcc-v9-components"
+  ],
+  "kernels": [
+   "ahmedberatozer/quantum-ai-df-thc-group-compression"
+  ]
+ },
+ {
+  "ref": "anazemcev/quantum-circuits-881q-paired-dqi-r6-df-thc",
+  "title": "Quantum Circuits | 881Q Paired DQI + R6 DF-THC",
+  "votes": 15,
+  "version": 6,
+  "type": "notebook",
+  "bytes": 401382,
+  "code_cells": 62,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "anazemcev/vqcc-viberteam-verified-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "kozykappa/quantum-ai-reproducible-verified-portfolio",
+  "title": "Quantum AI \u2014 reproducible verified portfolio",
+  "votes": 15,
+  "version": 5,
+  "type": "notebook",
+  "bytes": 33204,
+  "code_cells": 11,
+  "md_cells": 13,
+  "outputs": 0,
+  "datasets": [
+   ""
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "magmacot/quantum-circuits-clean-workspace-reuse",
+  "title": "Quantum Circuits | Clean Workspace Reuse",
+  "votes": 14,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 49932,
+  "code_cells": 8,
+  "md_cells": 10,
+  "outputs": 0,
+  "datasets": [
+   "mrmeows/qcc-1375-open-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "manwithacat/vqcc-quantum-voodoo",
+  "title": "VQCC Quantum Voodoo",
+  "votes": 14,
+  "version": 6,
+  "type": "notebook",
+  "bytes": 49157,
+  "code_cells": 17,
+  "md_cells": 18,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/kickmix-fork-wheels",
+   "manwithacat/vqcc-apache-public-circuits",
+   "manwithacat/vqcc-private-dqi-candidates"
+  ],
+  "kernels": [
+   "manwithacat/kickmix-tools"
+  ]
+ },
+ {
+  "ref": "mizeroluckygall/quantum-circuits-rotation-calibration",
+  "title": "Quantum Circuits | Rotation Calibration",
+  "votes": 13,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 21437,
+  "code_cells": 5,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "ahmedberatozer/quantum-ai-df-thc-group-compression"
+  ]
+ },
+ {
+  "ref": "syed3000/vqcc-24-43-portfolio",
+  "title": "VQCC 24.43 Portfolio",
+  "votes": 13,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 5963,
+  "code_cells": 1,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [
+   "syed3000/vqcc-2443-portfolio"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "syed3000/vqcc-own-circuit-portfolio-notebook",
+  "title": "VQCC Own-Circuit Portfolio Notebook",
+  "votes": 13,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 6733,
+  "code_cells": 1,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [
+   "syed3000/vqcc-own-circuit-portfolio"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "avazaku/gauge-prox-sign-copy-qrom",
+  "title": "Gauge-Prox + Sign-Copy QROM",
+  "votes": 12,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 113598,
+  "code_cells": 18,
+  "md_cells": 11,
+  "outputs": 0,
+  "datasets": [
+   "avazaku/gauge-prox-numerical-checkpoints"
+  ],
+  "kernels": [
+   "heliosli/quantum-ai-v1"
+  ]
+ },
+ {
+  "ref": "isabe11am00re/qcc-v49-submission",
+  "title": "QCC v49 submission",
+  "votes": 12,
+  "version": 6,
+  "type": "notebook",
+  "bytes": 4507,
+  "code_cells": 4,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [
+   "isabe11am00re/qcc-v58r2-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "marculera/df-thc-10x-compact-groups-from-the-hamiltonian",
+  "title": "DF-THC 10x: Compact Groups From the Hamiltonian",
+  "votes": 12,
+  "version": 10,
+  "type": "notebook",
+  "bytes": 61092,
+  "code_cells": 7,
+  "md_cells": 8,
+  "outputs": 0,
+  "datasets": [
+   "marculera/dfthc-compact-pipeline",
+   "sohier/verifiable-circuit-compilation-starter-kit"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "mizeroluckygall/quantum-circuits-rotation-calibration-39-char",
+  "title": "Quantum Circuits | Rotation Calibration (39 char)",
+  "votes": 12,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 19369,
+  "code_cells": 5,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "anazemcev/quantum-circuits-signed-digit-memory"
+  ]
+ },
+ {
+  "ref": "leoprovorov/full-xor-chemistry-no-borrowed-bits",
+  "title": "\u269b\ufe0f Full-XOR Chemistry | No Borrowed Bits",
+  "votes": 9,
+  "version": 9,
+  "type": "notebook",
+  "bytes": 18016,
+  "code_cells": 1,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "heliosli/quantum-ai-v1"
+  ]
+ },
+ {
+  "ref": "zongaobian/quantum-circuits-signed-digits-bm-psi-qrom",
+  "title": "Quantum Circuits | Signed Digits, BM/Psi & QROM",
+  "votes": 9,
+  "version": 6,
+  "type": "notebook",
+  "bytes": 16537,
+  "code_cells": 1,
+  "md_cells": 1,
+  "outputs": 0,
+  "datasets": [
+   "zongaobian/quantum-circuits-signed-digits-bmpsi-and-qrom"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "isabe11am00re/qcc-v58x-submission",
+  "title": "QCC v58x submission",
+  "votes": 8,
+  "version": 5,
+  "type": "notebook",
+  "bytes": 4500,
+  "code_cells": 4,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [
+   "isabe11am00re/qcc-v63sn-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "orecord/quantum-circuit-compilation-pipeline",
+  "title": "Quantum circuit compilation pipeline ",
+  "votes": 8,
+  "version": 10,
+  "type": "notebook",
+  "bytes": 69814,
+  "code_cells": 16,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "",
+   "ahmedberatozer/df-thc-group-compression-factorization",
+   "heliosli/qcc-circuits-live",
+   "kozykappa/quantum-ai-dataset",
+   "manwithacat/vqcc-hedge-wizardry",
+   "syed3000/vqcc-own-circuit-portfolio",
+   "manwithacat/vqcc-apache-public-circuits",
+   "ahmedberatozer/vqcc-v9-components"
+  ],
+  "kernels": [
+   "alexchilton/24-55-lb-verified-three-task-portfolio"
+  ]
+ },
+ {
+  "ref": "marculera/df-thc-merge-groups-before-dropping-them",
+  "title": "DF-THC: Merge Groups Before Dropping Them",
+  "votes": 7,
+  "version": 9,
+  "type": "notebook",
+  "bytes": 72062,
+  "code_cells": 19,
+  "md_cells": 21,
+  "outputs": 0,
+  "datasets": [
+   "ahmedberatozer/df-thc-group-compression-factorization",
+   "marculera/dfthc-merge-pipeline",
+   "sohier/verifiable-circuit-compilation-starter-kit"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "ahoirg/qcc-reproducible-circuit-portfolio",
+  "title": "QCC | Reproducible Circuit Portfolio",
+  "votes": 6,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 54221,
+  "code_cells": 8,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "ahoirg/qcc-reproducible-circuit-assets"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "atakanaldemir/qcc-gap-3-residue-repair-and-c43-native-compiler",
+  "title": "QCC: Gap-3 Residue Repair and C43 Native Compiler",
+  "votes": 6,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 40715,
+  "code_cells": 6,
+  "md_cells": 5,
+  "outputs": 0,
+  "datasets": [
+   "atakanaldemir/qcc-c43-and-gap3-reproducible-research-inputs"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "kozykappa/quantum-circuits-sparse-sos-factors-and-circuit",
+  "title": "Quantum circuits | sparse SOS factors and circuit",
+  "votes": 6,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 50471,
+  "code_cells": 13,
+  "md_cells": 8,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "deleted/140263331"
+  ]
+ },
+ {
+  "ref": "avazaku/epigraph-rank-scales-889-qubit-dqi",
+  "title": "Epigraph Rank Scales + 889-Qubit DQI",
+  "votes": 5,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 91988,
+  "code_cells": 6,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "avazaku/free-gap-sqp-889-qubit-dqi"
+  ]
+ },
+ {
+  "ref": "avazaku/free-gap-sqp-889-qubit-dqi",
+  "title": "Free-Gap SQP + 889-Qubit DQI",
+  "votes": 5,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 232505,
+  "code_cells": 6,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "heliosli/quantum-ai-v1"
+  ]
+ },
+ {
+  "ref": "michaelrustad/vqcc-r10-merged-group-chemistry-12-87-lb",
+  "title": "VQCC | R10 Merged-Group Chemistry | 12.87 LB",
+  "votes": 5,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 9593,
+  "code_cells": 5,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "michaelrustad/vqcc-dfthc-r10-merged-groups"
+  ],
+  "kernels": [
+   "anazemcev/quantum-circuits-thc-joint-norm-881q-dqi"
+  ]
+ },
+ {
+  "ref": "magmacot/qcc-76q-881q-dqi-verified-blend",
+  "title": "QCC 76Q | 881Q DQI | Verified Blend",
+  "votes": 4,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 16456,
+  "code_cells": 5,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "magmacot/qcc-1212890-reproducible-portfolio",
+   "mrmeows/qcc-1375-open-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "nilanjansaha123/21-87-fused-dqi-c46-chemistry-gold",
+  "title": "\ud83d\ude80 21.87+ Fused DQI & C46 Chemistry [Gold]",
+  "votes": 4,
+  "version": 7,
+  "type": "notebook",
+  "bytes": 50851,
+  "code_cells": 6,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "busyaprime/33-qcc-v8-members",
+   "avazaku/gauge-prox-numerical-checkpoints",
+   "heliosli/qcc-circuits-live",
+   "somejoint/qcc-our-chemistry-b143-c60-xor2",
+   "dmitriigluzdov/vqcc-femoco-public-factorization",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "saddamaditya/narrowed-877q-dqi-and-progressive-r10-chemistry",
+   "busyaprime/lb-23-91003-exact-dqi-rewrites-at-892-qubits",
+   "dungluongtuan/22-34-lb-reproducible-best-of-public-portfolio",
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut",
+   "evgendvorkin/google-quantum-ai-deep-eda-with-analogies",
+   "alexchilton/24-55-lb-verified-three-task-portfolio",
+   "deleted/141365149",
+   "leoprovorov/the-unbearable-lightness-of-quantum-circuits",
+   "ahmedberatozer/quantum-ai-df-thc-group-compression",
+   "avazaku/gauge-prox-sign-copy-qrom",
+   "prvsiyan/verifier-guided-quantum-circuit-optimization",
+   "kirilltym/quantum-circuits-exact-gauge-5-word-qrom",
+   "heliosli/quantum-ai-v1",
+   "dmitriigluzdov/quantum-circuit-compilation-from-source"
+  ]
+ },
+ {
+  "ref": "qiuqiuh/qcc-refresh-v65w-sx-sy7-inverse",
+  "title": "QCC Refresh v65w-sx-sy7-inverse",
+  "votes": 4,
+  "version": 1,
+  "type": "script",
+  "bytes": 69785,
+  "code_cells": 0,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "avazaku/slack-homotopy-897-qubit-dqi",
+  "title": "Slack Homotopy + 897-Qubit DQI",
+  "votes": 3,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 102922,
+  "code_cells": 8,
+  "md_cells": 8,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut"
+  ]
+ },
+ {
+  "ref": "manwithacat/vqcc-chemistry-primer-df-thc-task-explained",
+  "title": "VQCC Chemistry Primer: DF-THC Task Explained",
+  "votes": 2,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 37298,
+  "code_cells": 8,
+  "md_cells": 10,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "marsyas/vqcc-invsqrt-13-94x-full-source",
+  "title": "VQCC invsqrt 13.94x - full source",
+  "votes": 2,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 86387,
+  "code_cells": 12,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "matousakura/best-of-public-portfolio-vqcc-24-0x-class",
+  "title": "Best-of-public portfolio \u2014 VQCC (24.0x class)",
+  "votes": 2,
+  "version": 17,
+  "type": "notebook",
+  "bytes": 11021,
+  "code_cells": 1,
+  "md_cells": 1,
+  "outputs": 0,
+  "datasets": [
+   "matousakura/best-of-public-portfolio"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "pablodiegoo/google-quantum-compilation-starter-notebook",
+  "title": "Google Quantum Compilation Starter Notebook",
+  "votes": 2,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 56488,
+  "code_cells": 9,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "busyaprime/33-qcc-v8-members",
+   "manwithacat/kickmix-fork-wheels",
+   "yoyobar/qcc-2298-submission-20261030",
+   "yoyobar/qcc-chem-v44-20261030",
+   "heliosli/qcc-circuits-live",
+   "dmitriigluzdov/vqcc-femoco-public-factorization",
+   "ahmedberatozer/vqcc-v14-psd-projective-portfolio"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "sumitchongder/notebook2f196e646b",
+  "title": "notebook2f196e646b",
+  "votes": 2,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 23177,
+  "code_cells": 7,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "avazaku/active-face-sqp-895-qubit-dqi",
+  "title": "Active-Face SQP + 895-Qubit DQI",
+  "votes": 1,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 975485,
+  "code_cells": 6,
+  "md_cells": 7,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "heliosli/quantum-ai-v1"
+  ]
+ },
+ {
+  "ref": "ehanmallick/invsqrt-20-65-two-3-to-2-and-merges-on-y6225",
+  "title": "invsqrt 20.65: two 3-to-2 AND merges on y6225",
+  "votes": 1,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 9393,
+  "code_cells": 5,
+  "md_cells": 5,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "yoyobar/lb-22-99-invsqrt-101-62-qubits"
+  ]
+ },
+ {
+  "ref": "leotang09/vqcc-t7421-submission",
+  "title": "VQCC T7421 Submission",
+  "votes": 1,
+  "version": 13,
+  "type": "script",
+  "bytes": 5451,
+  "code_cells": 0,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [
+   ""
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "manderson240/vqcc-v1-invsqrt-linear-guess",
+  "title": "VQCC v1 invsqrt linear guess",
+  "votes": 1,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 16900,
+  "code_cells": 5,
+  "md_cells": 1,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "manwithacat/dqi-salt-check-public-frontier",
+  "title": "DQI Salt Check: Public Frontier",
+  "votes": 1,
+  "version": 10,
+  "type": "notebook",
+  "bytes": 32410,
+  "code_cells": 8,
+  "md_cells": 9,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/kickmix-fork-wheels",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "manwithacat/kickmix-tools"
+  ]
+ },
+ {
+  "ref": "manwithacat/kickmix-quickstart",
+  "title": "kickmix quickstart",
+  "votes": 1,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 19340,
+  "code_cells": 6,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/kickmix-fork-wheels",
+   "manwithacat/kickmix-engine-wheels",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "manwithacat/kickmix-tools"
+  ]
+ },
+ {
+  "ref": "manwithacat/kickmix-tools",
+  "title": "kickmix_tools",
+  "votes": 1,
+  "version": 5,
+  "type": "script",
+  "bytes": 54736,
+  "code_cells": 0,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "michaelrustad/vqcc-r10-c46-four-word-chemistry-21-41-lb",
+  "title": "VQCC R10 C46 Four-Word Chemistry 21.41 LB",
+  "votes": 1,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 11060,
+  "code_cells": 5,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "michaelrustad/vqcc-dfthc-r10-merged-groups"
+  ],
+  "kernels": [
+   "mrmeows/21-0-circuits-let-s-all-reach-the-plateau"
+  ]
+ },
+ {
+  "ref": "muchat007/895q-streamed-decoder-measured-node-choices",
+  "title": "895Q Streamed Decoder: Measured Node Choices",
+  "votes": 1,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 406790,
+  "code_cells": 3,
+  "md_cells": 3,
+  "outputs": 0,
+  "datasets": [
+   "muchat007/quantum-compiler-node-resource-measurements"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "nilanjansaha123/auto-assemble-the-best-qcc-portfolio-22-70",
+  "title": "\ud83c\udfc6 Auto-Assemble the Best QCC Portfolio: 22.70+",
+  "votes": 1,
+  "version": 5,
+  "type": "notebook",
+  "bytes": 13205,
+  "code_cells": 6,
+  "md_cells": 6,
+  "outputs": 0,
+  "datasets": [
+   "busyaprime/33-qcc-v8-members",
+   "avazaku/gauge-prox-numerical-checkpoints",
+   "heliosli/qcc-circuits-live",
+   "somejoint/qcc-our-chemistry-b143-c60-xor2",
+   "dmitriigluzdov/vqcc-femoco-public-factorization",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "saddamaditya/narrowed-877q-dqi-and-progressive-r10-chemistry",
+   "dungluongtuan/22-34-lb-reproducible-best-of-public-portfolio",
+   "evgendvorkin/google-quantum-ai-deep-eda-with-analogies",
+   "deleted/141365149",
+   "leoprovorov/the-unbearable-lightness-of-quantum-circuits",
+   "prvsiyan/verifier-guided-quantum-circuit-optimization",
+   "avazaku/gauge-prox-sign-copy-qrom",
+   "busyaprime/lb-23-91003-exact-dqi-rewrites-at-892-qubits",
+   "leoprovorov/but-some-q-squared-width-lab",
+   "avazaku/slack-homotopy-897-qubit-dqi",
+   "alexchilton/24-55-lb-verified-three-task-portfolio",
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut",
+   "heliosli/quantum-ai-v1",
+   "manwithacat/the-real-150k-was-the-friends-we-made",
+   "ahmedberatozer/quantum-ai-df-thc-group-compression",
+   "leoprovorov/full-xor-chemistry-no-borrowed-bits",
+   "dmitriigluzdov/quantum-circuit-compilation-from-source",
+   "kirilltym/quantum-circuits-exact-gauge-5-word-qrom"
+  ]
+ },
+ {
+  "ref": "clarelaurent/reciprocal-root-quantized-table-study",
+  "title": "Reciprocal Root Quantized Table Study",
+  "votes": 0,
+  "version": 4,
+  "type": "notebook",
+  "bytes": 59023,
+  "code_cells": 3,
+  "md_cells": 5,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "clarelaurent/three-verified-circuits-a-reproducible-entry",
+  "title": "Three Verified Circuits - A Reproducible Entry",
+  "votes": 0,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 56848,
+  "code_cells": 4,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "dmitriyab/vqcc-cand-0044-bit-identical-submission-rebuild",
+  "title": "VQCC cand-0044 bit identical submission rebuild",
+  "votes": 0,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 15282,
+  "code_cells": 4,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "dungluongtuan/22-34-lb-reproducible-best-of-public-portfolio",
+  "title": "22.34 LB Reproducible Best-of-Public Portfolio",
+  "votes": 0,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 14091,
+  "code_cells": 9,
+  "md_cells": 8,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": [
+   "somejoint/quantum-circuits-24-56-local-gm-rank-cut",
+   "busyaprime/lb-23-91003-exact-dqi-rewrites-at-892-qubits"
+  ]
+ },
+ {
+  "ref": "hengck23/dqi-kmb-at-59-56854",
+  "title": "DQI: kmb at 59.56854",
+  "votes": 0,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 13814,
+  "code_cells": 1,
+  "md_cells": 2,
+  "outputs": 0,
+  "datasets": [
+   "hengck23/hengck23-dqi-59-57"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "magmacot/qcc-12-12890-verified-blend-and-offset-polish",
+  "title": "QCC 12.12890 | Verified Blend and Offset Polish",
+  "votes": 0,
+  "version": 1,
+  "type": "notebook",
+  "bytes": 18667,
+  "code_cells": 6,
+  "md_cells": 8,
+  "outputs": 0,
+  "datasets": [
+   "magmacot/qcc-1212890-reproducible-portfolio"
+  ],
+  "kernels": []
+ },
+ {
+  "ref": "malachiwmoody/vqcc-open-notes",
+  "title": "VQCC Open Notes",
+  "votes": 0,
+  "version": 2,
+  "type": "notebook",
+  "bytes": 61699,
+  "code_cells": 1,
+  "md_cells": 13,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "manwithacat/df-thc-weight-refit-demo",
+  "title": "DF-THC weight refit demo",
+  "votes": 0,
+  "version": 3,
+  "type": "notebook",
+  "bytes": 9873,
+  "code_cells": 7,
+  "md_cells": 4,
+  "outputs": 0,
+  "datasets": [
+   "manwithacat/kickmix-fork-wheels",
+   "manwithacat/kickmix-engine-wheels",
+   "manwithacat/vqcc-apache-public-circuits"
+  ],
+  "kernels": [
+   "manwithacat/kickmix-tools",
+   "manwithacat/dfthc-refit"
+  ]
+ },
+ {
+  "ref": "manwithacat/dfthc-refit",
+  "title": "dfthc_refit",
+  "votes": 0,
+  "version": 4,
+  "type": "script",
+  "bytes": 51732,
+  "code_cells": 0,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [],
+  "kernels": []
+ },
+ {
+  "ref": "vyassenthilkumar/verified-assembly-of-public-qcc-circuits",
+  "title": "Verified Assembly of Public QCC Circuits",
+  "votes": 0,
+  "version": 2,
+  "type": "script",
+  "bytes": 18460,
+  "code_cells": 0,
+  "md_cells": 0,
+  "outputs": 0,
+  "datasets": [
+   "heliosli/qcc-circuits-live",
+   "alexchilton/qcc-llm-gauge"
+  ],
+  "kernels": []
+ }
+]
