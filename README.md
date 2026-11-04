@@ -9,8 +9,9 @@ classical fuzz verifier while using fewer qubits and Toffoli/T gates than
 Google's reference. Score = geometric mean over the three benchmarks of
 `baseline_cost / your_cost`; the reference scores 1.0.
 
-See `docs/competition-notes.md` for everything gathered about the benchmarks,
-cost models, verifier behaviour and submission format.
+See `docs/competition-notes.md` for the overview and `docs/research/` for ~100k words
+of research reports (official rules and verifier semantics, the companion paper, the
+kickmix library, the primary papers per benchmark, public solutions and leaderboard).
 
 ## Layout
 
@@ -21,7 +22,8 @@ tests/           pytest smoke tests
 scripts/         fetch_data.sh (Kaggle download)
 data/            competition bundle (git-ignored)
 submissions/     built zips (git-ignored)
-docs/            notes
+docs/            notes and research reports (docs/research/)
+third_party/     vendored official verifiers and Kaggle metric (Apache-2.0)
 ```
 
 ## Setup

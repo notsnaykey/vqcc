@@ -52,7 +52,7 @@ def test_fuzz_detects_bug():
 
 def test_cost_helpers():
     res = resources(build_adder(8))
-    assert invsqrt_cost(res) == res.qubits * (res.toffoli + res.t_like / 4)
+    assert invsqrt_cost(res.qubits, res.toffoli, res.t_like) == res.qubits * (res.toffoli + res.t_like / 4)
     assert dqi_rate_penalty(0.0) == pytest.approx(1.0)
     assert math.isinf(dqi_rate_penalty(1.0))
     assert final_score([1.0, 1.0, 1.0]) == pytest.approx(1.0)

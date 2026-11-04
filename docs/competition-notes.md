@@ -1,103 +1,47 @@
-# Competition notes
+# Competition notes (overview)
 
-Gathered 2026-11-04 from Google's announcement, kickmix source, and public
-participant repos. Kaggle itself was not reachable from the session that wrote
-this, so **re-verify every number against the Kaggle overview and the official
-verifiers in `data/`.**
+Start here, then read `docs/research/FACTS.md` (consolidated fact sheet) and the
+detailed reports in `docs/research/`.
 
-## Key facts
+## Confirmed facts (official metric script + verifiers + companion paper)
 
 | Item | Value |
 |---|---|
-| Host | Google Quantum AI + Kaggle |
-| Prize pool | $150,000 (plus a $10,000 mid-competition milestone prize, 2026-11-20) |
-| Entry deadline | 2027-01-13 |
-| Final deadline | 2027-01-20 23:59 UTC |
-| Submissions | 5 per day, ~45 min scoring each, zip named `submission.zip` |
-| Library | kickmix 1.0.0 on PyPI (C++20 + pybind11; source under `Qualtran/kickmix`) |
-| Paper | arXiv:2610.23832, "Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI" |
-| License of baselines/verifiers | Apache 2.0 |
+| Host | Google Quantum AI + Kaggle; started 2026-10-22 |
+| Prizes | $150k: 50/25/10/5/5/5k for places 1–6; $10k milestone (2026-11-20, needs a public notebook); $10k longest leader (to 2027-01-04); 3 × $10k single-task prizes (all three tasks must pass) |
+| Deadlines | entry + team merger 2027-01-13; final 2027-01-20 23:59 UTC |
+| Limits | 5 submissions/day, 2 final picks, teams ≤ 5; zip must be named `submission.zip` |
+| Winner obligations | Apache-2.0 release of submission and generator code, reproducible environment docs; competition data may not be redistributed |
+| Library | kickmix 1.0.0 (PyPI), C++20 + pybind11; source in `Qualtran/kickmix`; introduced in Babbush et al., arXiv:2603.28846 |
+| Companion paper | Khattar et al., arXiv:2610.23832 (benchmark definitions, no results) |
+| Score | geometric mean over three benchmarks of `baseline_cost / cost`; any failing benchmark on any split voids the whole submission; each split uses a secret salt |
 
-## Why verification is cheap
+## Benchmarks
 
-Kickmix circuits use only reversible classical logic (X, CX, CCX, CSWAP, ...),
-diagonal phase gates (Z, CZ, CCZ, Z_POW) and HMR (Hadamard-measure-reset,
-measurement-based uncomputation). Such circuits map computational-basis inputs
-to computational-basis outputs with a tracked phase, so a classical simulator
-can fuzz them at tens of millions of gates per second. The verifier:
+| | I `invsqrt` | II `dqi` | III `dfthcsos` |
+|---|---|---|---|
+| Task | phase by 1/√x, x ∈ [1, 3,133,452], rel. tol 2⁻²⁴, exhaustive, 64 shots each, zero failures | RS(4095, 4025) syndrome decoder over GF(2¹²), 35 errors, 840 syndrome qubits, 102,400 shots | FeMoCo-76 DF-THC-SOS angle oracles (`angle_k_*`, ≤128 qubits, no Z_POW) + factorisation npz |
+| Cost | Q × (Tof + (T + Σrot)/4); rotation = 0.56·log₂(1/ε)+5.3 T | R(ε⁺) × Q² × Tof; ε⁺ Clopper–Pearson at 2⁻¹²⁸; reject if ε⁺ ≥ 1/16 | λ_eff × T_total × Q_total; λ_eff = √(E_gap(2Λ−E_gap)); Λ > 49, E_gap > 3.914898, errors ≤ 20 mHa |
+| Baseline | Q 260, 7,735 Tof, 37 rotations → 2,076,774 | Q 1,893, 5.725M Tof → 2.444e13 | λ_eff 49.30, T 93,237, Q 730 → 3.356e9 |
+| Public frontier (early Nov) | Q 62, ~1,326 Tof, 41 rot → ~100.6k (≈20.6×) | Q 892, ~404k Tof → ~3.85e11 (≈63×) | (R,B,C)=(9,143,40), Q 428, T ~16k, λ_eff 47.0 → ~3.2e8 (≈10.5×) |
+| Best published research | Gu et al. 2610.22367: table of 128 lines + MBU, 1,140 Tof/142 Q on a looser spec | Gu et al.: Berlekamp–Massey + phase-only Forney, 442k Tof / 1,837 Q | Low et al. 2502.15882 (PRX 2025) defines the method |
 
-* seeds random inputs and measurement outcomes with a salted Fiat–Shamir hash of
-  the submission (no hidden test set, no seed grinding);
-* checks output registers, that ancillas are returned clean, and the phase;
-* any failing benchmark zeroes the whole submission.
+Toffolis are counted as the mean executed per shot (gates under a measured-bit
+condition count only when taken). Q is `circuit.num_qubits` = max qubit id + 1,
+so ids must be reused tightly.
 
-## Benchmarks and cost models (provisional, from public write-ups)
+## Leaderboard context
 
-### I. `invsqrt` — fusion energy (Trotter simulation of electrons on a grid)
-* Circuit computes a 1/sqrt(x) phasing for each electron pair.
-* Cost = **Q × (Toffoli + T/4)**, rotations priced in T.
-* Hard constraint: **zero failures** over ~200.5M shots (exhaustive over all
-  3,133,452 inputs).
-* Public leaderboard: one participant reported ~3.7× local improvement.
+Assembling the public Apache-2.0 circuits gives ≈ geomean(20.6, 63, 10.5) ≈ 23.9;
+about half the field sits at 22.9–23.2. Leader on 2026-11-02 was ≈ 28.8. To place,
+one benchmark has to move well beyond its public frontier.
 
-### II. `dqi` — combinatorial optimisation (Decoded Quantum Interferometry)
-* Reversible Reed–Solomon syndrome decoder (GF(2^m) arithmetic; kickmix has
-  native `gf2_*` builder ops).
-* Cost = **R(ε⁺) × Q² × Toffoli**, with R(ε) = ln2 / (−ln(½ + 2√ε)) and ε⁺ an
-  upper confidence bound on decoder failure from 102,400 shots. Imperfect
-  decoding is allowed and traded against gates. Qubits count twice.
-* Reference parameters seen in a public repo: `--m 4095 --n 70 --degree 12`.
+## Reading order
 
-### III. `dfthcsos` — quantum chemistry (FeMoCo phase estimation)
-* Submit ANGLE circuits (`angle_k_0..n-1`) plus `submission.npz` holding the
-  tensor factorisation `(U, W, H2_I, H1_I, Hsym_lower)` and Givens tree
-  `tree_edges`.
-* Cost = **λ_eff × Toffoli × Q** over the whole block encoding,
-  λ_eff = sqrt(E_gap (2Λ − E_gap)).
-* Rejected if Hamiltonian error > 20 mHa, Λ ≤ 49.0, E_gap ≤ 3.914898 Ha, or any
-  ANGLE circuit > 128 qubits.
-* Needs the FeMoCo data from the Kaggle bundle.
-
-### Final score
-`geomean(baseline_i / cost_i)` over the three benchmarks. Reference = 1.0.
-A big win on one task is damped by the geometric mean, so all three matter.
-
-## Submission zip layout
-```
-invsqrt.kmb | .kmx
-dqi.kmb     | .kmx
-dfthcsos/angle_k_0.kmb ... angle_k_{n-1}.kmb
-dfthcsos/submission.npz
-```
-Files at the zip root, no wrapper folder. `vqcc.submission` enforces this.
-
-## kickmix API cheat-sheet
-* `km.CircuitBuilder()`: `create_quantum_register`, `alloc_qubits`, `x/cx/ccx/cz/ccz/cswap`,
-  `init_and`/`del_and` (measurement-based uncompute), `iadd/isub`, `flip_if_*`
-  comparators, `left_rotate`, `init_lookup`/`del_lookup` (QROM), `unary_iteration`,
-  `gf2_*` field ops, `z_pow`, `hmr`, `push_condition/pop_condition`, `set_max_qubits`.
-* `builder.finish_circuit()` → `km.Circuit`; `.to_file(path, format='kmb'|'kmx')`,
-  `.operation_statistics()` (`num_toffoli_like`, `num_t_like`, `num_z_pow(...)`),
-  `.num_qubits`, `.register_data`, `.text_diagram()`, `.flame_chart_svg()`.
-* `km.Simulator(batch_size=n)`, `use_same_registers_as(circuit)`,
-  `write_within_shot(reg, shot, value)`, `do(circuit)`,
-  `read_within_shot(reg, shot, out=int)`, `read_shot_phase(shot)`, `clear_for_shot()`.
-* CLI tools in the C++ source: `count_operations`, `diagram`, `sample`, `kmb2kmx`,
-  `kmx2kmb`, `generate_circuit`.
-* Build from source needs C++20 (g++ ≥ 13) and pybind11 2.12.
-
-## Ideas to explore first
-1. Reproduce baseline 1.0 locally with the official verifiers (~4 min).
-2. `invsqrt`: table-lookup + Newton iteration tradeoffs, measurement-based
-   uncomputation to cut Toffolis, qubit reuse (cost is linear in Q).
-3. `dqi`: Q² makes qubit count dominant; accept a small ε⁺ to shrink the decoder.
-4. `dfthcsos`: factorisation rank vs. λ_eff; biggest lever may be the `.npz`
-   not the circuits.
-5. Agentic search loops (the paper's approach) once the local eval is fast.
-
-## Sources
-* https://opensource.googleblog.com/2026/10/announcing-verifiable-quantum-circuit-compilation-competition-on-kaggle.html
-* https://github.com/quantumlib/Qualtran/tree/main/kickmix
-* https://github.com/Inzainos/quantum-circuit-compilation
-* https://github.com/somfieao/kickmix-compiler
-* https://github.com/clduab11/quantum-hackathon
+1. `docs/research/FACTS.md` — consolidated numbers, contracts, contradictions.
+2. `docs/research/kickmix.md` — the library and the cost of every primitive.
+3. `docs/research/companion-paper.md` — the official benchmark definitions.
+4. Per benchmark: `deep-invsqrt-papers.md`, `deep-dqi-papers.md`, `deep-chemistry-papers.md`.
+5. `docs/research/ai-found-tricks.md` — what LLM-agent search already found (Gu et al., ecdsa.fail).
+6. `docs/research/participants.md`, `kaggle-notebooks.md`, `kaggle-pages.md` — the public field.
+7. `docs/research/qualtran-bloqs.md`, `papers.md` — building blocks and bibliography.
