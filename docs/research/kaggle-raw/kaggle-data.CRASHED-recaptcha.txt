@@ -1,0 +1,20 @@
+URL: https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/data
+TITLE: Google Quantum AI - Verifiable Quantum Circuit Compilation | Kaggle
+CAPTURED: 2026-11-04T12:56:13.419Z
+
+Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+Learn more
+OK, Got it.
+Something went wrong and this page crashed!
+
+If the issue persists, it's likely a problem on our side.
+
+Non-JSON response from competitions.CompetitionService/GetCompetition (200): redirected: false, url: /api/i/competitions.CompetitionService/GetCompetition, content-type: text/html; charset=utf-8, body: <!doctype html><html lang="en-US" dir="ltr"><head><base href="https://www.google.com/recaptcha/challengepage/"><link rel="preconnect" href="//www.gstatic.com"><meta name="referrer" content="origin"><s…
+keyboard_arrow_up
+content_copy
+NonJsonResponseError: Non-JSON response from competitions.CompetitionService/GetCompetition (200): redirected: false, url: /api/i/competitions.CompetitionService/GetCompetition, content-type: text/html; charset=utf-8, body: <!doctype html><html lang="en-US" dir="ltr"><head><base href="https://www.google.com/recaptcha/challengepage/"><link rel="preconnect" href="//www.gstatic.com"><meta name="referrer" content="origin"><s…
+    at https://www.kaggle.com/static/assets/app.js?v=c823b772c4dd1648:1:3680954
+    at Object.<anonymous> (https://www.kaggle.com/static/assets/app.js?v=c823b772c4dd1648:1:3679671)
+    at w (https://www.kaggle.com/static/assets/app.js?v=c823b772c4dd1648:1:3677421)
+    at i (https://www.kaggle.com/static/assets/app.js?v=c823b772c4dd1648:1:3677618)
+Refresh
